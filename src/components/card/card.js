@@ -1,7 +1,7 @@
 import { ButtonX } from "../buttonX/buttonX";
 import { ButtonV } from "../buttonV/buttonV";
 
-export function Card (){
+export function Card ({person}){
     return (
         <li className ="gentleman">
             <div className ="gentlemanavatar-container">

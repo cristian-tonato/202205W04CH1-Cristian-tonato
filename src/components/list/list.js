@@ -7,7 +7,7 @@ export function List(){
     return(
         <ul className ="gentlemen">
             {PERSONS.map((element) =>( 
-               <Card></Card> 
+               <Card person={element}></Card> 
              ))};
             
         </ul>
