@@ -3,11 +3,11 @@ import { PERSONS } from "../../models/person";
 
 
 export function List(){
-    console.log(PERSONS)
+    //console.log(PERSONS)
     return(
         <ul className ="gentlemen">
             {PERSONS.map((element) =>( 
-               <Card person={element}></Card> 
+               <Card person={element} key={element.id}></Card> 
              ))};
             
         </ul>
